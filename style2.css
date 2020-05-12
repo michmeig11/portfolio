@@ -1,0 +1,118 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Loved by the King', cursive;
+}
+    
+nav {
+    height: 4em;
+    
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: right;
+    font-size: 20px;
+}
+
+.background-img {
+    width: 100%;
+}
+
+.col-md-4 {
+    flex: 0 0 25%;
+}
+
+.skillset {
+    width: 100%;
+    display: flexbox;
+    padding-top: 3rem;
+}
+#skillset-box {
+    justify-content: center;
+    width: 71%;
+    padding-left: 30%;
+    
+   
+}
+#skillset-box p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+.fa-html5 {
+    color: #e54d26
+}
+.fa-bootstrap {
+    color: #563d7c;
+}
+.fa-css3-alt {
+    color: #2163af;
+}
+
+.fa-js-square {
+    color: rgb(241, 241, 24);
+}
+
+.fa-html5, .fa-bootstrap, .fa-css3-alt, .fa-js-square {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fun {
+    align-content: center;
+    margin-bottom: 1em;
+    padding: 1em 1em;
+    font-size: large;
+}
+
+.card{
+    color: palevioletred;
+    width: auto;
+    height: 220px;
+    background-color: rgb(0, 0, 128, 10%);
+}
+
+.card-body p {
+    
+    height: 90px;
+}
+
+.contactme {
+    display: flex;
+    width: 100%;
+    
+}
+.formbox {
+    flex: 0 0 50%;
+    flex-direction: column;
+}
+
+.socialmediaicons {
+    flex: 0 0 50%;
+}
+
+.fa-linkedin {
+    color: darkblue;
+}
+
+.fa-instagram {
+       color:darkcyan;
+}
+
+.fa-linkedin, .fa-instagram {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-instagram:hover,
+.fa-linkedin:hover{
+    color: darkgrey;
+}
+
+
+footer{
+    height: 10em;
+    background-color: #333333;
+}
