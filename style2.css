@@ -3,11 +3,28 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: 'Loved by the King', cursive;
+    
 }
     
 nav {
     height: 4em;
     
+}
+.name {
+    width 100%;
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    transform: translateY(-40em);
+}
+
+.name h1 {
+    font-size: 70px;
+}
+.name p {
+    font-size: 20px;
+    margin-top: 2rem;
+   
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -25,22 +42,23 @@ nav {
 
 .skillset {
     width: 100%;
-    display: flexbox;
+    display: inline-flex;
     padding-top: 3rem;
 }
 #skillset-box {
-    justify-content: center;
-    width: 71%;
-    padding-left: 30%;
-    
-   
-}
+    margin-left: 5em;
+    flex-basis: 50%;
+    }
 #skillset-box p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 1.5em;
     text-align: center;
 }
-
+.photo img {
+    border-radius: 15%;
+    margin-left: 40%;
+    margin-top: -2%;
+}
 .fa-html5 {
     color: #e54d26
 }
@@ -66,7 +84,10 @@ nav {
     padding: 1em 1em;
     font-size: large;
 }
-
+.emojibox {
+    text-align: center;
+    
+}
 .card{
     color: palevioletred;
     width: auto;
@@ -82,13 +103,16 @@ nav {
 .contactme {
     display: flex;
     width: 100%;
+    text-align: center;
     
 }
 .formbox {
     flex: 0 0 50%;
     flex-direction: column;
 }
-
+.form {
+    margin-top: 2em;
+}
 .socialmediaicons {
     flex: 0 0 50%;
 }
@@ -97,19 +121,20 @@ nav {
     color: darkblue;
 }
 
-.fa-instagram {
+.fa-github {
        color:darkcyan;
 }
 
-.fa-linkedin, .fa-instagram {
+.fa-linkedin, .fa-github {
     font-size: 4.5em;
     padding: 3rem;
 }
 
-.fa-instagram:hover,
+.fa-github:hover,
 .fa-linkedin:hover{
     color: darkgrey;
 }
+
 
 
 footer{
